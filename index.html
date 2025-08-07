@@ -32,7 +32,7 @@
         position: absolute;
         top: 25%;
         left: 25%;
-        border: 3px solid black;
+        border: 3px solid white;
         border-radius: 15px;
         text-align: center;
           font:
@@ -41,9 +41,28 @@
         color: #ffffff;
       }
       .LoginTitle {
-        border: 3px solid black;
+        border: 3px solid white;
         border-radius: 15px;
         height: 7%;
+      }
+      .TextInputs {
+        border: 1px solid white;
+        border-radius: 5px;
+        backdrop-filter: blur(5px);
+        text-align: center;
+          font:
+        bold "Arial",
+        sans-serif;
+        color: #ffffff;
+      }
+      .Submit {
+        border: 1px solid white;
+        border-radius: 5px;
+        text-align: center;
+          font:
+        bold "Arial",
+        sans-serif;
+        color: #ffffff;
       }
 </style>
     <title>PixelPulseGames Administration</title>
@@ -60,11 +79,18 @@
       <h3></h3>
       <br>
       <form>
-      <input type="text" name="username" id="username">
+      <input class="TextInputs" type="text" name="username" id="username">
         <br>
         <h3></h3>
         <br>
-        <input type="password" name="user-pw" id="user-pw">
+        <input class="TextInputs" type="password" name="user-pw" id="user-pw">
+        <br>
+        <h3></h3>
+        <br>
+        <h3></h3>
+        <br>
+        <input class="Submit" type="submit" name="submit" id="submit">
+        <br>
       </form>
     </div>
     </body>
