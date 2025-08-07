@@ -87,12 +87,12 @@
       <br>
       <form>
         <label for="username" class="Labels">Username: </label>
-      <input class="TextInputs" type="text" name="username" id="username" minlength="3" maxlength="12" pattern="[a-zA-Z0-9]?!.">
+      <input class="TextInputs" type="text" name="username" id="username" minlength="3" maxlength="12" pattern="[a-zA-Z0-9]">
         <br>
         <h3></h3>
         <br>
           <label for="user-pw" class="Labels">Password: </label>
-        <input class="TextInputs" type="password" name="user-pw" id="user-pw">
+        <input class="TextInputs" type="password" name="user-pw" id="user-pw" minlength="8" maxlength="99" pattern="^[A-Za-z0-9!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]*$">
         <br>
         <h3></h3>
         <br>
